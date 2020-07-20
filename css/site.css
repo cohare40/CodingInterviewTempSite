@@ -1,0 +1,470 @@
+@font-face{
+    font-family: boldTitle;
+  src: url(content/font);
+}
+
+.siteNav {
+    margin: auto;
+    width: 50%;
+    height: 90px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 25px rgba(0,0,0,.1);
+    border-radius: 0 0 8px 8px;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    width: 12%;
+}
+
+.joinBetaBtn {
+    width: 140px;
+    height: 34px;
+    border: 1px solid #60bce9;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    color: #60bce9;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#homeTopRow{
+    margin-top: -90px;
+}
+
+
+#leftHomeRow {
+    background: #cfebfd;
+    height: 750px;
+    border-radius: 0 0 100px 100px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+#rightHomeRow {
+    background: #60bce9;
+    height: 80%;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 15%;
+    margin-left: -5%;
+    z-index: 2000;
+}
+
+#rightHomeImg {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: transparent;
+    border: none;
+}
+
+#leftHomeTopTitle {
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 136%;
+}
+
+#leftHomeText {
+    margin-top: 25%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#leftHomeTopTitle span1 {
+    color: #60bce9;
+}
+
+#leftHomeText span2 {
+    color: #fa6161;
+}
+
+#leftHomeText span3 {
+    color: #f90;
+}
+
+#enterEmailText {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7c7f84;
+    padding-bottom: 4%;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid #60bce9;
+    margin: 20px 0 20 0px;
+}
+
+#firstArrow {
+    margin-top: -80%;
+}
+
+.noPadding {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#MERGE0 {
+    border-radius: 0.25rem 0rem 0rem 0.25rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7c7f84;
+    height: 41px;
+}
+
+#MERGE0::placeholder {
+    text-align: center;
+}
+
+#aiopText {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#emailSubmit {
+    border-color: #60bce9;
+    border-radius: 0rem 0.25rem 0.25rem 0rem;
+    background-color: #60bce9;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#infoTextTitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000; 
+    text-align: center;
+}
+
+#infoText {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #7c7f84;
+    text-align: center;
+}
+
+#infoText span2 {
+    color: #60bce9;
+}
+
+.trioTitle {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 37px;
+}
+
+.trioText {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #7c7f84
+}
+
+#learnTitle {
+    color: #fa6161;
+}
+
+#interviewTitle {
+    color: #136eea;
+}
+
+#practiceTitle {
+    color: #ffd037;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+#circleLearn {
+    background-color: rgba(250,97,97,.15);
+}
+
+#circleInterview {
+    background-color: rgba(19,110,234,.15);
+}
+
+#circlePractice {
+    background-color: rgba(255,208,55,.15);
+}
+
+#mailingListBox {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background-color: #f7f7f7;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #7c7f84;
+    padding-bottom: 10%;
+}
+
+#mailListTitle {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#emailJoinForm {
+    width: 90%;
+    margin: auto;
+}
+
+#footer {
+    width: 100%;
+    background-color: #60bce9;
+    color: white;
+    padding-top: 3%;
+    text-align: center;
+}
+
+#footerText {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 2%;
+}
+
+#copyright {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#thirdLine {
+    border-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.formAlign {
+    margin-left: 10%;
+}
+
+.bmc-button img {
+    height: 34px !important;
+    width: 35px !important;
+    margin-bottom: 1px !important;
+    box-shadow: none !important;
+    border: none !important;
+    vertical-align: middle !important;
+}
+
+.bmc-button {
+    padding: 7px 15px 7px 10px !important;
+    line-height: 35px !important;
+    height:51px !important;
+    text-decoration: none !important;
+    display:inline-flex !important;
+    color:#000000 !important;
+    background-color:#FFFFFF !important;
+    border-radius: 5px !important;
+    border: 1px solid transparent !important;
+    padding: 7px 15px 7px 10px !important;
+    font-size: 20px !important;
+    letter-spacing:-0.08px !important;
+    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    margin: 0 auto !important;
+    font-family:'Lato', sans-serif !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+.bmc-button:hover, .bmc-button:active, .bmc-button:focus {
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    text-decoration: none !important;
+    box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    opacity: 0.85 !important;
+    color:#000000 !important;
+}
+
+#joinModal {
+    text-align: center;
+}
+
+#modalBorder {
+    border-radius: 15px;
+    margin-top: 50%;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+#modalEmailInput {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    height: 55px;
+    border: 1px normal black;
+}
+
+#modalEmailInput::placeholder {
+    text-align: center;
+}
+
+#joinModalText {
+    width: 60%;
+    margin: auto;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    color: #7c7f84;
+    padding-bottom: 4%;
+}
+
+#modalJoinBtn {
+    width: 60%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 51px;
+    text-align: center;
+    color: #fff;
+    background-color: #60bce9;
+    border-radius: 25px;
+    border-color: #60bce9;
+}
+
+
+#thankYouPic {
+    width: 50%;
+    margin: auto;
+}
+
+#thankYouCloseBtn {
+    width: 100%;
+    background-color: #60bce9;
+    border-radius: 25px;
+    border-color: #60bce9;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#thankYouBody {
+    width: 50%;
+    margin: auto;
+}
+
+#thanksText {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000;
+}
+
+/** MOBILE ONLY **/
+@media only screen and (max-width: 600px) {
+
+    .siteNav {
+        height: 10%;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        width: 40%;
+    }
+
+    #leftHomeText {
+        width: 100%;
+    }
+
+    .imgHolder {
+        margin: auto;
+        width: 50%;
+    }
+
+    #leftHomeRow {
+
+        border-radius: 0 0 0 0;
+    }
+
+    #leftHomeRow {
+        margin-top: 0;
+    }
+}
+
+/**Above phone screen size but below wide screens**/
+@media (max-width:991px) and (min-width:600px) {
+
+    .imgHolder{
+        width: 40%;
+        margin: auto;
+    }
+
+    #leftHomeRow {
+        margin-top: 0;
+    }
+}
+
+
+/**Moves the navbar brand to right so it is still visible**/
+
+/** DESKTOP ONLY **/
+@media only screen and (min-width: 992px) {
+
+    #interviewTile {
+        margin-bottom: -20%;
+    }
+
+    #secondLine {
+        margin-top: 130px;
+    }
+}
+
+@media (max-width:1200px) and (min-width:992px) {
+    #rightHomeRow{
+        margin-top: 20%;
+    }
+}
